@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ChartAndTable/static/css/main.98f05cea.css",
+    "main.js": "/ChartAndTable/static/js/main.3e1fdfe7.js",
+    "index.html": "/ChartAndTable/index.html",
+    "main.98f05cea.css.map": "/ChartAndTable/static/css/main.98f05cea.css.map",
+    "main.3e1fdfe7.js.map": "/ChartAndTable/static/js/main.3e1fdfe7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98f05cea.css",
+    "static/js/main.3e1fdfe7.js"
+  ]
+}
