@@ -1,0 +1,45 @@
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.buttons button {
+  padding: 10px;
+  font-size: 20px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:active {
+  transform: translateY(-4px);
+}
+
+.buttons button:first-child {
+  color: rgb(76, 134, 169);
+}
+
+.buttons button:last-child {
+  color: red;
+}
+
+.error {
+  color: red;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}

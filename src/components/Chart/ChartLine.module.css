@@ -1,0 +1,29 @@
+.chart {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: rgb(253, 251, 251);
+  padding: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  color: rgb(104, 104, 104);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 440px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .title {
+    font-size: 40px;
+  }
+}

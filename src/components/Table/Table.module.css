@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: rgb(242, 240, 240);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding-top: 5px;
+}
+
+.header {
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  color: rgb(104, 104, 104);
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  border-radius: 2rem;
+  background-color: rgb(240, 125, 63);
+  color: white;
+  padding: 7px 10px;
+  margin-right: 5px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(-3px);
+}
+
+.button > span {
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.table {
+  border-collapse: collapse;
+  overflow: hidden;
+  margin-top: 0;
+  box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+}
+.table th {
+  border-right: 2px solid #ffffff;
+  background-color: rgb(76, 134, 169);
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Roboto";
+  padding: 7px 7px;
+}
+.table th:last-child {
+  border-right: none;
+}
+
+.table tbody {
+  font-size: 18px;
+  text-align: center;
+}
+
+.table tr {
+  border-bottom: 2px solid #ffffff;
+}
+
+.table tr:last-child {
+  border-bottom: none;
+}
+.table tr:nth-child(even) {
+  background-color: rgb(210, 235, 251);
+}
+
+.table tr:nth-child(odd) {
+  background-color: rgb(234, 237, 241);
+}
+
+.table td {
+  border-right: 2px solid #ffffff;
+}
+
+.table td:last-child {
+  border-right: none;
+}
+
+@media screen and (max-width: 440px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .button > span {
+    font-size: 14px;
+  }
+
+  .table th {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .table td {
+    font-size: 14px;
+    padding: 3px 10px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .table th {
+    font-size: 22px;
+    padding: 5px 10px;
+  }
+
+  .table td {
+    font-size: 20px;
+    padding: 3px 10px;
+  }
+}

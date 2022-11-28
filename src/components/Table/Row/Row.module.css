@@ -1,0 +1,27 @@
+.actions {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.edit {
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+}
+
+.edit:active {
+  transform: translateY(2px);
+}
+
+.delete {
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+}
+
+.delete:active {
+  transform: translateY(2px);
+}

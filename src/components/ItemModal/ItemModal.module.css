@@ -1,0 +1,97 @@
+.form {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80%;
+  row-gap: 15px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.input-field {
+  text-align: left;
+}
+
+.input-field input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #111827;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  padding: 0;
+}
+
+.input-field input:focus {
+  outline: none;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-field input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.input-field input[type="number"]:hover,
+.input-field input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
+.spinner {
+  color: white;
+}
+
+.buttons {
+  max-width: 80%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 10px;
+  font-size: 20px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:active {
+  transform: translateY(4px);
+}
+.buttons button:first-child {
+  color: rgb(76, 134, 169);
+}
+.buttons button:last-child {
+  color: red;
+}
+
+.message {
+  color: rgb(61, 106, 174);
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+}
